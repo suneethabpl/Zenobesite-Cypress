@@ -1,10 +1,24 @@
 class OurStoryPage {
     tonnes(co2count) {
-        const h2 = cy.get('div#tco2-count')
-            .find('div h2')
+        let value1, value2
+        cy.get('div#tco2-count div h2')
+            .should(($el) => {
+                value1 = $el.text();
+            })
+
+        cy.get('div#tco2-count div h2')
+            .should(($div) => {
+                value2 = $div.text();
+                expect(value1).not.equal(value2);
+            })
+
+        const h2 =
+            cy.get('div#tco2-count')
+            .find('div h2');
+        cy.screenshot('our page');
         cy.contains('Okay').click()
-        cy.screenshot();
-        h2.screenshot(co2count);
+        h2.screenshot(co2count)
+
     }
 
     picture() {
@@ -16,9 +30,9 @@ class OurStoryPage {
     popup(founder) {
         cy.get('section[data-id="559022b1"]')
             .contains(founder)
-            .should('be.visible');
+            .should('be.visible')
+            .should('have.text', 'Tim Boothman')
     }
-
 }
 const ourstorypage = new OurStoryPage();
 
