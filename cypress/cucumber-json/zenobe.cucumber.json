@@ -20,10 +20,10 @@
             "arguments": [],
             "keyword": "Given ",
             "line": 5,
-            "name": "the User visits to 'Home' page",
+            "name": "the User visits to 'Zenobe' home page",
             "result": {
               "status": "passed",
-              "duration": 1496000000
+              "duration": 1291000000
             }
           },
           {
@@ -33,7 +33,7 @@
             "name": "the User navigates to 'Our story' page",
             "result": {
               "status": "passed",
-              "duration": 1947000000
+              "duration": 2326000000
             }
           },
           {
@@ -43,7 +43,7 @@
             "name": "the User should see 'Our story' page",
             "result": {
               "status": "passed",
-              "duration": 1156000000
+              "duration": 975000000
             }
           }
         ]
@@ -60,10 +60,10 @@
             "arguments": [],
             "keyword": "Given ",
             "line": 5,
-            "name": "the User visits to 'Home' page",
+            "name": "the User visits to 'Zenobe' home page",
             "result": {
               "status": "passed",
-              "duration": 821000000
+              "duration": 731000000
             }
           },
           {
@@ -73,7 +73,7 @@
             "name": "the User navigates to 'Our story' page",
             "result": {
               "status": "passed",
-              "duration": 1557000000
+              "duration": 1891000000
             }
           },
           {
@@ -83,7 +83,7 @@
             "name": "the User validates the 'tonnes of CO 2 saved to date' to take screenshot",
             "result": {
               "status": "passed",
-              "duration": 19134000000
+              "duration": 21247000000
             }
           }
         ]
@@ -100,10 +100,10 @@
             "arguments": [],
             "keyword": "Given ",
             "line": 5,
-            "name": "the User visits to 'Home' page",
+            "name": "the User visits to 'Zenobe' home page",
             "result": {
               "status": "passed",
-              "duration": 1291000000
+              "duration": 1027000000
             }
           },
           {
@@ -113,7 +113,7 @@
             "name": "the User navigates to 'Our story' page",
             "result": {
               "status": "passed",
-              "duration": 2000000000
+              "duration": 1839000000
             }
           },
           {
@@ -123,7 +123,7 @@
             "name": "the User click on 'James Basden' picture",
             "result": {
               "status": "passed",
-              "duration": 394000000
+              "duration": 582000000
             }
           },
           {
@@ -133,7 +133,7 @@
             "name": "the User should see 'James Basden'",
             "result": {
               "status": "failed",
-              "error_message": "AssertionError: Timed out retrying after 10000ms: expected '<h2.elementor-heading-title.elementor-size-default>' to have text 'Tim Boothman', but the text was 'James Basden'\n    + expected - actual\n\n    -'James Basden'\n    +'Tim Boothman'\n\n    at OurStoryPage.popup (cypress/integration/BDD/pageObjects/ourstory.js:34:13)\n    at Context.eval (cypress/integration/BDD/zenobe/ourStorySpecFile.js:19:17)\n    at Context.resolveAndRunStepDefinition (node_modules/cypress-cucumber-preprocessor/lib/resolveStepDefinition.js:193:0)\n    at Context.eval (node_modules/cypress-cucumber-preprocessor/lib/createTestFromScenario.js:27:0)"
+              "error_message": "AssertionError: Timed out retrying after 10000ms: expected '<h2.elementor-heading-title.elementor-size-default>' to have text 'Tim Boothman', but the text was 'James Basden'\n    + expected - actual\n\n    -'James Basden'\n    +'Tim Boothman'\n\n    at OurStoryPage.popup (cypress/integration/BDD/pageObjects/ourstory.js:33:13)\n    at Context.eval (cypress/integration/BDD/zenobe/ourStorySpecFile.js:19:17)\n    at Context.resolveAndRunStepDefinition (node_modules/cypress-cucumber-preprocessor/lib/resolveStepDefinition.js:193:0)\n    at Context.eval (node_modules/cypress-cucumber-preprocessor/lib/createTestFromScenario.js:27:0)"
             }
           },
           {

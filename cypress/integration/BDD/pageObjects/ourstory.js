@@ -18,7 +18,6 @@ class OurStoryPage {
         cy.screenshot('our page');
         cy.contains('Okay').click()
         h2.screenshot(co2count)
-
     }
 
     picture() {

@@ -1,7 +1,10 @@
 class HomePage {
-    visitToHome(home) {
+    visitToHome() {
         cy.visit(Cypress.env('baseUrl'));
-        cy.title().should('include', 'Zenobe');
+    }
+
+    verifyHomepage(title) {
+        cy.title().should('include', title);
     }
 
     navigaeToOurstory(page) {

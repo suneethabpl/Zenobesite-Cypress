@@ -2,7 +2,7 @@ Feature: Zenobe apllication
 test Zenobe application
 
 Background:
-Given the User visits to 'Home' page
+Given the User visits to 'Zenobe' home page
 When the User navigates to 'Our story' page
 
 Scenario: test Our story page
