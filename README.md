@@ -1,12 +1,12 @@
-# Playwright
-create Page Object Model framework in Playwright.
-This is done on a Node project with JavaScript.
+# Cypress
+use Page Object Model in Cypress.
 
 ### Tools & Technologies
 * Node JS
 * VS Code
 * JavaScript
-* BDD: cucumber-json
+* BDD
+* cucumber-json
 ### To use this project
 
 Step 1 - Download the folder or clone the repository
